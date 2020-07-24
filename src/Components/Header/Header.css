@@ -1,0 +1,49 @@
+Header {
+    width: 100vw;
+    height: 10vh;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background: #6b696917;
+}
+
+#Header_logo {
+    grid-column: 1/4;
+    align-self: center;
+}
+
+#Header_logo a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #581f1f;
+    font-family: monospace;
+}
+
+#Header_toAdmin {
+    grid-column: 6/8;
+}
+
+#Header_Admin {
+    color: #f2f1f1;
+}
+
+#Header_toAdmin a {
+    text-decoration: none;
+}
+
+#Header_toCart {
+    grid-column: 11/13;
+}
+
+#Header_toCart a {
+    text-decoration: none;
+    color: #581f1f;
+    font-size: 25px;
+}
+
+#Header_cart {
+    background-image: url("../../images/cart.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    
+}

@@ -1,0 +1,107 @@
+#Cart h1 {
+    text-align: -webkit-left;
+}
+
+#Cart_Table {
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+#Cart_Table > thead > tr > th {
+    border: 1px solid black;
+}
+
+#Cart_Table > tbody > tr > td {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+#Cart_Table > tbody > tr > td > img {
+    height: 90%;
+    vertical-align: middle;
+}
+
+#Cart_Table > tfoot > tr {
+    border: 1px solid black;
+}
+
+.deleteItem {
+    color: red;
+}
+
+.deleteItem:hover {
+    color: black;
+    cursor: pointer;
+}
+
+#Cart > button {
+    background-color: #9e5c5c;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 220px;
+}
+
+#Cart > button:active {
+    background-color: white;
+    color: black;
+    border: 2px solid #4caf50;
+}
+
+#Cart > button:hover {
+    background-color: white;
+    color: black;
+}
+
+#CheckoutForm {
+    display: block;
+    text-align: -webkit-left;
+}
+
+#CheckoutForm > form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+#CheckoutForm > form > label {
+
+}
+
+#CheckoutForm > form > label > input{
+
+}
+
+#CheckoutForm > form > button {
+    background-color: #9e5c5c;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 10px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 220px;
+}
+
+#CheckoutForm > form > button:active {
+    background-color: white;
+    color: black;
+    border: 2px solid #4caf50;
+}
+
+#CheckoutForm > form > button:hover {
+    background-color: white;
+    color: black;
+}

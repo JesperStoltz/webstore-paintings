@@ -1,0 +1,7 @@
+main {
+    width: 100vw;
+    background: #6b696917;
+    min-height: 79vh;
+    padding: 10px;
+    box-sizing: border-box;
+}
